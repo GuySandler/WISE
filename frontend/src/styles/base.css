@@ -1,0 +1,74 @@
+:root {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  font-synthesis: none;
+
+  text-rendering: optimizeLegibility;
+  /* enhance the legibility of light text on a dark background */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* mobile text sizing */
+  -moz-text-size-adjust: 100%;
+}
+
+@supports (font-variation-settings: normal) {
+  /* enable variable fonts if available */
+  :root {
+    font-family: 'Inter Variable', sans-serif;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--primary);
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 900;
+  font-family: 'Outfit Variable', sans-serif;
+  text-transform: uppercase;
+}
+
+/* document */
+
+body {
+  margin: 0;
+
+  color: var(--text);
+  background-color: var(--background);
+}
+
+/* elements */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+input,
+button {
+  font-size: inherit;
+}

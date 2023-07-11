@@ -1,0 +1,29 @@
+:root {
+  /* scale */
+
+  --text-large: 1.3rem;
+
+  --gap: 2rem;
+
+  --radius-small: 1em;
+  --radius-big: 2em;
+
+  /* easings */
+  --ease-cubic: cubic-bezier(0.33, 1, 0.68, 1);
+
+  /* color variables */
+
+  --dark-background: #191627;
+  --light-background: #fefefe;
+  --primary: #995fa3;
+  --secondary: #00b3b3;
+  --secondary-hover: #009999;
+  --text-bold: #ffadff;
+
+  /* default dark colorscheme */
+
+  --text: white;
+  --background: var(--dark-background);
+  --background-text: var(--text);
+  --surface: var(--black-1);
+}
