@@ -17,6 +17,7 @@ Generate captions for videos containing ASL.
 
 1. `cd backend`
 2. (use any virtual environment of your choice and install the dependencies with `pip install -e .`)
+2.5 export FLASK_APP=__init__.py
 3. `flask run`
 
 ### Frontend
@@ -29,7 +30,7 @@ To develop the frontend, make a copy of this file in the same directory and name
 > **Note:** When it's time to compile the frontend, the deployment URL of the backend should be placed in
 > `.env.production`.
 
-1. Install pnpm: `npm install -g pnpm`
+1. Install pnpm: `sudo npm install -g pnpm`
 2. `cd frontend`
 3. `pnpm install`
 4. `pnpm dev`
