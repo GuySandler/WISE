@@ -4,7 +4,7 @@
     <img src="https://app.roboflow.com/images/download-dataset-badge.svg"></img>
 </a>
 
-Generate captions for videos containing ASL.
+Generate captions for videos containing ASL
 
 ## Project Structure
 
